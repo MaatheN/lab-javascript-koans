@@ -20,7 +20,6 @@ describe('the JavaScript language', () => {
 
     it('knows the type of the variable', () => {
       const x = 1;
-
       expect(typeof x).toEqual('number');
     });
 
